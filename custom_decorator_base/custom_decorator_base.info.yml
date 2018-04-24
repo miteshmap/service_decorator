@@ -1,0 +1,4 @@
+name: Custom decorator
+type: module
+description: custom decorator module to provide base service class.
+core: 8.x

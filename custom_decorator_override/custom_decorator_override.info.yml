@@ -1,0 +1,4 @@
+name: Custom decorator Override
+type: module
+description: custom decorator override module to override base decorator service.
+core: 8.x

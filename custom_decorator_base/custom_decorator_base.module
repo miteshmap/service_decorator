@@ -1,0 +1,6 @@
+<?php
+
+function custom_decorator_base_service() {
+  $base = \Drupal::service('custom_decorator_base.base');
+  return $base->helper();
+}

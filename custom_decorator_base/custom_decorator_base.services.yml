@@ -1,0 +1,4 @@
+services:
+  custom_decorator_base.base:
+    class: Drupal\custom_decorator_base\OriginalService
+    arguments: ['@request_stack']

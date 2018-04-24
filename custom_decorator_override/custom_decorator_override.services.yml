@@ -1,0 +1,7 @@
+services:
+  custom_decorator_override.base:
+    class: Drupal\custom_decorator_override\OriginalServiceOverride
+    decorates: custom_decorator_base.base
+    decoration_priority: 9
+    public: false
+    arguments: ['@custom_decorator_override.base.inner', '@request_stack']
