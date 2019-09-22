@@ -2,14 +2,16 @@
 
 namespace Drupal\custom_decorator_override;
 
-
-use Drupal\custom_decorator_base\OriginalService;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
  * Class OriginalServiceOverride
+ *
+ * Here, crerated CustomDecoratorInterface and implemented for example purpose
+ * only. If you do not want to change anything in OriginalServiceinterface 
+ * interface, You should implement OriginalServiceinterface only.
  */
-class OriginalServiceOverride extends OriginalService {
+class OriginalServiceOverride implements CustomDecoratorInterface {
 
   /**
    * Original service object.
