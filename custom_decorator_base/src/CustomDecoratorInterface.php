@@ -5,7 +5,7 @@ namespace Drupal\custom_decorator_base;
 /**
  * Interface CustomDecoratorInterface
  */
-interface CustomDecoratorInterface {
+interface OriginalServiceinterface {
 
   public function helper();
 
