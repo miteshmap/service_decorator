@@ -1,2 +1,3 @@
-# service_decorator
-Service decorator https://symfony.com/doc/current/service_container/service_decoration.html
+# service decorator
+Blog: https://www.axelerant.com/resources/team-blog/drupal-8-service-decorators
+ref: https://symfony.com/doc/current/service_container/service_decoration.html
